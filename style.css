@@ -1,0 +1,95 @@
+html, body{
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    }
+    .container-body{
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    ul{
+    
+    padding: 60px;
+    
+    }
+    button{
+        width: 100px;
+        background-color: rgb(171, 171, 182);
+        border: 2px solid rgb(24, 139, 0);
+        padding: 6px;
+        position: relative;
+        left: -30px;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    
+    }
+    button:hover{
+      background-color: aliceblue;
+      border-radius: 20px;
+    
+    }
+    a{
+        margin: 5px;
+    }
+    li{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: relative;
+        left: 15px;
+        top: -20px;
+        
+        
+    }
+    header{
+        background-color: rgb(0, 0, 0);
+        padding: 50px;
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    #estudantes {
+        background-color: #294c99;
+        padding: 20px;
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+      }
+      
+      .grid-item {
+        text-align: center;
+      }
+      
+      .grid-item img {
+        width: 70%;
+        border-radius: 50%;
+        border: 5px solid #6410a8;
+    
+      }
+      
+      .grid-item h3 {
+        margin: 15px;
+        font-size: 20px;
+      }
+      
+      .grid-item p {
+        margin: 15px;
+        font-size: 14px;
+      }
+      
+    footer{
+        background-color: #6410a8;
+        
+        
+    }
+    footer ul{
+        display: flex;
+        justify-content: space-between;
+    }
