@@ -75,8 +75,10 @@ html, body{
       }
       .grid-item img:hover {
         transform: translateY(-10px);
-        transition: width 0,3s, transform 0,3s;
+        transition: width 0,3s , border 0,3s;
         width: 80%;
+        border: 5px solid #4b0a81;
+        
       }
 
       .grid-item h3 {
