@@ -71,9 +71,13 @@ html, body{
         width: 70%;
         border-radius: 50%;
         border: 5px solid #6410a8;
-    
+        
       }
-      
+      .grid-item img:hover {
+        transform: translateY(-10px);
+        transition: transform 0.3s ease;
+      }
+
       .grid-item h3 {
         margin: 15px;
         font-size: 20px;
