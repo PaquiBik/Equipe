@@ -75,8 +75,8 @@ html, body{
       }
       .grid-item img:hover {
         transform: translateY(-10px);
-        transition: width 0,3s;
-        width: 110%;
+        transition: width transform 0,3s;
+        width: 90%;
       }
 
       .grid-item h3 {
