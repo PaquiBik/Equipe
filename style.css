@@ -73,8 +73,13 @@ html, body{
         border: 5px solid #6410a8;
         
       }
-      .grid-item img:hover {
-        transform: translateY(-10px);
+      .imagem{
+        width: 70%;
+        border-radius: 50%;
+        border: 5px solid #6410a8;
+        
+      }
+      .imagem:hover {
         transition: width 0,3s , border 0,3s;
         width: 80%;
         border: 5px solid #4b0a81;
