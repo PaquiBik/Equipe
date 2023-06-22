@@ -91,11 +91,12 @@ html, body{
       }
       
     footer{
-        background-color: #6410a8;
+        background-color: #000000;
         
         
     }
     footer ul{
         display: flex;
         justify-content: space-between;
+        color: white;
     }
